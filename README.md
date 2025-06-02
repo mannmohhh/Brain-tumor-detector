@@ -80,5 +80,6 @@ That said, it’s vital to stay cautious: AI models aren’t perfect. False posi
 
 When responsibly developed and deployed, AI diagnostic tools like this could genuinely transform healthcare—making it faster, fairer, and more accessible worldwide.
 
-![brain](https://github.com/user-attachments/assets/ff7d80e8-4b3e-44f1-9ac5-3e3d5116ee63)
+
+![image](https://github.com/user-attachments/assets/e9a7e76e-03f3-4af7-a385-ff91b1030392)
 
