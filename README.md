@@ -79,3 +79,6 @@ This kind of AI-powered tumor detection tech can revolutionize early cancer diag
 That said, it’s vital to stay cautious: AI models aren’t perfect. False positives or negatives can lead to anxiety or missed diagnoses. This app should not replace medical professionals but serve as a supportive tool. Privacy of patient data is paramount and must be rigorously protected. Transparency about the model’s accuracy and limits is essential to build trust.
 
 When responsibly developed and deployed, AI diagnostic tools like this could genuinely transform healthcare—making it faster, fairer, and more accessible worldwide.
+
+![brain](https://github.com/user-attachments/assets/ff7d80e8-4b3e-44f1-9ac5-3e3d5116ee63)
+
