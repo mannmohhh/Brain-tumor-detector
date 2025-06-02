@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CT Scan Tumor Detection</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #f2f2f2; }
+        .container { padding: 30px; }
+        .images { display: flex; justify-content: center; gap: 40px; margin-top: 30px; }
+        .img-box { border: 2px dashed #aaa; padding: 10px; background: #fff; }
+        img { max-width: 300px; height: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 CT Scan Tumor Detection</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit">Analyze Image</button>
+        </form>
+
+        {% if result_image %}
+        <div class="images">
+            <div class="img-box">
+                <h3>Original Image</h3>
+                <img src="{{ url_for('send_result', filename=original_image) }}" alt="Uploaded Image">
+            </div>
+            <div class="img-box">
+                <h3>Detection Result</h3>
+                <img src="{{ url_for('send_result', filename=result_image) }}" alt="Detected Image">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
